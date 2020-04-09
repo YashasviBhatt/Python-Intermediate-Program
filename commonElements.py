@@ -27,7 +27,11 @@ for lst in range(num_of_list):
             elements_dict[element] += 1
 
 # printing common elements
+flag = 0
 print('Common Elements are')
 for element in elements_dict:
     if elements_dict[element] == num_of_list:
             print(element, end=' ')
+            flag = 1
+if flag == 0:
+    print('No Common Element Found')
