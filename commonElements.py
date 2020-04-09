@@ -29,5 +29,5 @@ for lst in range(num_of_list):
 # printing common elements
 print('Common Elements are')
 for element in elements_dict:
-    if elements_dict[element] == 3:
+    if elements_dict[element] == num_of_list:
             print(element, end=' ')
