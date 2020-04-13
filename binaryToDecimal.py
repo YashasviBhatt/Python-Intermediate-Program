@@ -37,5 +37,5 @@ print('The Decimal Equivalent of {} is {}'.format(binary_input,binary_eqvlnt))
 
 # We can also use this
 # a = '10010010110011010011011001000'           passed as string
-# print(int(a, 2))          # convert to int then decimal conversion with base 2
+# print(int(a, 2))          # convert to int then decimal conversion from number with base 2
 # base can be different also like print(int(a, 16))     for hexadecimal to binary conversion
